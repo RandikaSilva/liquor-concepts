@@ -1,0 +1,4 @@
+project_id = "rbpmdpyidqjaianixdne"
+
+[functions.liquor-licensing-chat]
+verify_jwt = false
