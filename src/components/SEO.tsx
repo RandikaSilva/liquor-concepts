@@ -57,7 +57,7 @@ const SEO = ({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={fullUrl} />
       <meta property="og:site_name" content={siteName} />
-      <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+      <meta property="og:image" content={ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content={title} />
@@ -80,7 +80,7 @@ const SEO = ({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
+      <meta name="twitter:image" content={ogImage.startsWith("http") ? ogImage : `${siteUrl}${ogImage}`} />
       <meta name="twitter:image:alt" content={title} />
       <meta name="twitter:site" content="@liquorconceptsltd" />
       <meta name="twitter:creator" content="@liquorconceptsltd" />

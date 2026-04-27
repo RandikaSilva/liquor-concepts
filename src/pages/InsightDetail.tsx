@@ -1,5 +1,14 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { Calendar, ArrowLeft, BookOpen, Mail, Clock, User, ArrowRight, Sparkles } from "lucide-react";
+import {
+  Calendar,
+  ArrowLeft,
+  BookOpen,
+  Mail,
+  Clock,
+  User,
+  ArrowRight,
+  Sparkles,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -13,8 +22,12 @@ const sampleInsights = [
     id: 10,
     slug: "auckland-liquor-licensing-guide",
     type: "blog",
-    title: "Auckland Liquor Licensing: Everything You Need to Know Before You Apply",
-    excerpt: "Need a liquor licence in Auckland? A complete guide covering licence types, the step-by-step application process, costs, timelines, and ongoing compliance obligations.",
+    title:
+      "Auckland Liquor Licensing: Everything You Need to Know Before You Apply",
+    keywords:
+      "liquor licence Auckland, how to get liquor licence NZ, Auckland Council liquor licensing, liquor licence application NZ, LCQ qualification NZ, alcohol licence types Auckland",
+    excerpt:
+      "Need a liquor licence in Auckland? A complete guide covering licence types, the step-by-step application process, costs, timelines, and ongoing compliance obligations.",
     content: `
       <p><strong>Obtaining a liquor licence in Auckland requires navigating New Zealand's comprehensive alcohol licensing framework.</strong> Whether you're opening a new bar, restaurant, café, or retail outlet, understanding the application process, legal requirements, and compliance obligations is essential for success.</p>
 
@@ -91,14 +104,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2025-04-15",
     readTime: "9 min read",
-    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 9,
     slug: "why-liquor-licenses-get-rejected-auckland",
     type: "blog",
     title: "Common Reasons Liquor Licenses Get Rejected by Auckland Council",
-    excerpt: "Avoid costly delays! Learn why Auckland Council rejects liquor license applications — from incomplete documentation to community opposition — and how to get approval first time.",
+    keywords:
+      "liquor licence rejected Auckland, liquor licence declined NZ, alcohol licence refusal reasons, Auckland Council liquor licence, liquor licence application mistakes NZ",
+    excerpt:
+      "Avoid costly delays! Learn why Auckland Council rejects liquor license applications — from incomplete documentation to community opposition — and how to get approval first time.",
     content: `
       <p><strong>Understanding why liquor license applications get rejected by Auckland Council can save New Zealand business owners significant time, money, and frustration.</strong> Common rejection reasons include incomplete documentation, inadequate host responsibility policies, premises compliance failures, and unsuitable applicants. Most refusal reasons are entirely avoidable with thorough preparation and professional support.</p>
 
@@ -177,14 +194,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2025-04-15",
     readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 8,
     slug: "types-of-alcohol-licences-auckland",
     type: "blog",
     title: "Types of Alcohol Licences in Auckland: Which One Do You Need?",
-    excerpt: "Confused about alcohol licence types in Auckland? Learn the difference between on-licences, off-licences, club licences, and special licences — and which one suits your business.",
+    keywords:
+      "types of alcohol licences NZ, on-licence off-licence Auckland, club licence NZ, special licence NZ, liquor licence types New Zealand, which liquor licence do I need",
+    excerpt:
+      "Confused about alcohol licence types in Auckland? Learn the difference between on-licences, off-licences, club licences, and special licences — and which one suits your business.",
     content: `
       <p><strong>Choosing the right alcohol licence is crucial for legal compliance and business success in Auckland.</strong> New Zealand's licensing framework offers several distinct licence types—on-licences, off-licences, club licences, and special licences—each designed for specific business models and operational requirements.</p>
 
@@ -266,14 +287,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2025-04-15",
     readTime: "12 min read",
-    image: "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 7,
     slug: "new-year-compliance-checklist-licensed-premises",
     type: "blog",
     title: "New Year Compliance Checklist for Licensed Premises",
-    excerpt: "Start the year strong: key liquor licensing tasks every venue should review. A practical checklist every hospitality business should complete.",
+    keywords:
+      "liquor licence compliance NZ, licensed premises checklist, duty manager certificate renewal NZ, host responsibility policy NZ, alcohol licensing obligations",
+    excerpt:
+      "Start the year strong: key liquor licensing tasks every venue should review. A practical checklist every hospitality business should complete.",
     content: `
       <p><strong>Start the year strong: key liquor licensing tasks every venue should review</strong></p>
       <p>Running a licensed premises in New Zealand means staying on top of multiple compliance obligations under the Sale and Supply of Alcohol Act 2012. January is the perfect time to reset, refresh, and ensure your venue is legally aligned for the year ahead.</p>
@@ -299,14 +324,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2025-01-15",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 6,
     slug: "special-licences-what-you-need-to-know-event-season",
     type: "blog",
     title: "Special Licences: What You Need to Know This Event Season",
-    excerpt: "Avoid delays and mistakes when planning events that involve alcohol. Here's everything you need to know about special licence applications.",
+    keywords:
+      "special licence NZ, event alcohol licence Auckland, temporary liquor licence NZ, special licence application, one-off event alcohol licence",
+    excerpt:
+      "Avoid delays and mistakes when planning events that involve alcohol. Here's everything you need to know about special licence applications.",
     content: `
       <p><strong>Avoid delays and mistakes when planning events that involve alcohol</strong></p>
 
@@ -339,14 +368,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2025-02-01",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 1,
     slug: "understanding-new-zealand-liquor-licensing-framework",
     type: "blog",
     title: "Understanding the New Zealand Liquor Licensing Framework",
-    excerpt: "A comprehensive guide to understanding how liquor licensing works in New Zealand, including the different types of licenses and when you need them.",
+    keywords:
+      "NZ liquor licensing framework, Sale and Supply of Alcohol Act 2012, liquor licensing New Zealand, liquor licence types NZ, District Licensing Committee NZ",
+    excerpt:
+      "A comprehensive guide to understanding how liquor licensing works in New Zealand, including the different types of licenses and when you need them.",
     content: `
       <h2>Introduction to Liquor Licensing in New Zealand</h2>
       <p>New Zealand's liquor licensing system is governed by the Sale and Supply of Alcohol Act 2012. This legislation sets out the framework for how alcohol can be sold and supplied in New Zealand, with the aim of minimising alcohol-related harm while also recognising the legitimate interests of businesses.</p>
@@ -377,14 +410,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2024-01-15",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 2,
     slug: "january-2024-newsletter-industry-updates",
     type: "newsletter",
     title: "January 2024 Newsletter: Industry Updates",
-    excerpt: "Stay up to date with the latest changes in liquor licensing regulations, upcoming deadlines, and tips for maintaining compliance.",
+    keywords:
+      "liquor licensing news NZ 2024, liquor licence newsletter, NZ licensing updates, liquor licence renewal dates, licensing compliance tips",
+    excerpt:
+      "Stay up to date with the latest changes in liquor licensing regulations, upcoming deadlines, and tips for maintaining compliance.",
     content: `
       <h2>Welcome to Our January 2024 Newsletter</h2>
       <p>Happy New Year from the Liquor Concepts team! We hope you had a restful holiday season. As we kick off 2024, we wanted to share some important updates and reminders for the year ahead.</p>
@@ -415,14 +452,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2024-01-01",
     readTime: "3 min read",
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 3,
     slug: "how-to-prepare-for-your-license-renewal",
     type: "blog",
     title: "How to Prepare for Your License Renewal",
-    excerpt: "License renewals don't have to be stressful. Here's our step-by-step guide to preparing for your renewal application.",
+    keywords:
+      "liquor licence renewal NZ, how to renew liquor licence, Auckland licence renewal, liquor licence renewal documents, licence renewal preparation NZ",
+    excerpt:
+      "License renewals don't have to be stressful. Here's our step-by-step guide to preparing for your renewal application.",
     content: `
       <h2>Planning Ahead for Your License Renewal</h2>
       <p>Your liquor license renewal is an important process that requires careful preparation. By planning ahead and gathering the necessary documentation, you can ensure a smooth renewal process.</p>
@@ -461,14 +502,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2023-12-20",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 4,
     slug: "managers-certificate-what-you-need-to-know",
     type: "blog",
     title: "Manager's Certificate: What You Need to Know",
-    excerpt: "Everything you need to know about obtaining and maintaining your Manager's Certificate in New Zealand.",
+    keywords:
+      "managers certificate NZ, LCQ qualification New Zealand, duty manager certificate NZ, how to get managers certificate NZ, Licence Controller Qualification",
+    excerpt:
+      "Everything you need to know about obtaining and maintaining your Manager's Certificate in New Zealand.",
     content: `
       <h2>What is a Manager's Certificate?</h2>
       <p>A Manager's Certificate is a qualification required for anyone who wants to be a duty manager at licensed premises in New Zealand. It demonstrates that the holder has the knowledge and skills necessary to manage the sale and supply of alcohol responsibly.</p>
@@ -508,14 +553,18 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2023-12-10",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60",
   },
   {
     id: 5,
     slug: "december-2023-newsletter-year-in-review",
     type: "newsletter",
     title: "December 2023 Newsletter: Year in Review",
-    excerpt: "Looking back at the key changes and developments in liquor licensing throughout 2023.",
+    keywords:
+      "liquor licensing 2023 NZ, liquor licence newsletter, NZ licensing year in review, alcohol licensing changes NZ, liquor licence compliance updates",
+    excerpt:
+      "Looking back at the key changes and developments in liquor licensing throughout 2023.",
     content: `
       <h2>2023 Year in Review</h2>
       <p>As we come to the end of another year, we wanted to take a moment to reflect on the key developments in liquor licensing throughout 2023.</p>
@@ -547,7 +596,8 @@ const sampleInsights = [
     author: "Liquor Concepts Team",
     date: "2023-12-01",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=60",
+    image:
+      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=60",
   },
 ];
 
@@ -555,13 +605,13 @@ const InsightDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
 
-  const insight = sampleInsights.find(item => item.slug === slug);
+  const insight = sampleInsights.find((item) => item.slug === slug);
 
   const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-NZ', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
+    return new Date(dateString).toLocaleDateString("en-NZ", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
   };
 
@@ -572,8 +622,13 @@ const InsightDetail = () => {
         <main className="flex-grow pt-20">
           <div className="container mx-auto px-6 py-32 text-center">
             <h1 className="text-3xl font-bold mb-4">Article Not Found</h1>
-            <p className="text-muted-foreground mb-8">The article you're looking for doesn't exist.</p>
-            <Button onClick={() => navigate('/insights')} className="bg-gradient-gold hover:opacity-90">
+            <p className="text-muted-foreground mb-8">
+              The article you're looking for doesn't exist.
+            </p>
+            <Button
+              onClick={() => navigate("/insights")}
+              className="bg-gradient-gold hover:opacity-90"
+            >
               <ArrowLeft className="mr-2 h-4 w-4" />
               Back to Insights
             </Button>
@@ -589,40 +644,78 @@ const InsightDetail = () => {
       <SEO
         title={`${insight.title} | Liquor Concepts NZ`}
         description={insight.excerpt}
-        keywords="liquor licensing NZ, liquor license blog, licensing industry updates"
+        keywords={insight.keywords}
         canonicalUrl={`/insights/${insight.slug}`}
+        ogImage={insight.image}
+        ogType={insight.type === "blog" ? "article" : "website"}
+        article={
+          insight.type === "blog"
+            ? {
+                publishedTime: insight.date,
+                author: insight.author,
+                section: "Liquor Licensing",
+              }
+            : undefined
+        }
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": insight.type === "blog" ? "BlogPosting" : "Article",
+          headline: insight.title,
+          description: insight.excerpt,
+          image: insight.image,
+          datePublished: insight.date,
+          author: {
+            "@type": "Organization",
+            name: insight.author,
+            url: "https://liquorconcepts.co.nz",
+          },
+          publisher: {
+            "@type": "Organization",
+            name: "Liquor Concepts",
+            url: "https://liquorconcepts.co.nz",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://liquorconcepts.co.nz/logo.png",
+            },
+          },
+          url: `https://liquorconcepts.co.nz/insights/${insight.slug}`,
+          mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": `https://liquorconcepts.co.nz/insights/${insight.slug}`,
+          },
+        }}
       />
       <Header />
-      
+
       <main className="flex-grow pt-20">
         {/* Hero Section */}
         <section className="relative py-16 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-gold-subtle" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
-          
+
           {/* Decorative elements */}
           <div className="absolute top-10 right-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
           <div className="absolute bottom-10 left-20 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-          
+
           <div className="container mx-auto px-6 relative z-10">
-            <Button 
-              variant="outline" 
-              onClick={() => navigate('/insights')}
+            <Button
+              variant="outline"
+              onClick={() => navigate("/insights")}
               className="mb-8 border-primary/30 hover:border-primary hover:bg-primary/5"
             >
               <ArrowLeft className="mr-2 h-4 w-4" />
               Back to Insights
             </Button>
-            
+
             <div className="max-w-4xl mx-auto animate-fade-in">
-              <Badge 
+              <Badge
                 className={`mb-6 px-4 py-1.5 text-sm ${
-                  insight.type === 'blog' 
-                    ? 'bg-gradient-gold text-primary-foreground border-0' 
-                    : 'bg-secondary/90 text-secondary-foreground border-0'
+                  insight.type === "blog"
+                    ? "bg-gradient-gold text-primary-foreground border-0"
+                    : "bg-secondary/90 text-secondary-foreground border-0"
                 }`}
               >
-                {insight.type === 'blog' ? (
+                {insight.type === "blog" ? (
                   <>
                     <BookOpen className="h-4 w-4 mr-2" />
                     Blog Post
@@ -634,11 +727,11 @@ const InsightDetail = () => {
                   </>
                 )}
               </Badge>
-              
+
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
                 {insight.title}
               </h1>
-              
+
               <div className="flex flex-wrap items-center gap-6 text-muted-foreground">
                 <span className="flex items-center gap-2">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -668,8 +761,8 @@ const InsightDetail = () => {
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto">
               <div className="relative h-64 md:h-[28rem] rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src={insight.image} 
+                <img
+                  src={insight.image}
                   alt={insight.title}
                   className="w-full h-full object-cover"
                 />
@@ -703,23 +796,26 @@ const InsightDetail = () => {
             <Card className="max-w-3xl mx-auto border-0 bg-gradient-to-br from-card via-card to-primary/5 shadow-2xl overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
               <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
-              
+
               <CardContent className="relative p-10 md:p-12 text-center">
                 <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
                   <Sparkles className="h-4 w-4 text-primary" />
-                  <span className="text-sm font-medium text-primary">Expert Assistance</span>
+                  <span className="text-sm font-medium text-primary">
+                    Expert Assistance
+                  </span>
                 </div>
-                
+
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Need Help with Your Liquor License?
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-                  Our experienced consultants are here to help you navigate the licensing process with confidence.
+                  Our experienced consultants are here to help you navigate the
+                  licensing process with confidence.
                 </p>
-                <Button 
+                <Button
                   size="lg"
                   className="bg-gradient-gold hover:opacity-90 text-primary-foreground px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
-                  onClick={() => navigate('/contact')}
+                  onClick={() => navigate("/contact")}
                 >
                   Contact Us Today
                   <ArrowRight className="ml-2 h-5 w-5" />
