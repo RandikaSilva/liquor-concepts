@@ -11,6 +11,28 @@ import SEO from "@/components/SEO";
 
 // Sample data - in production, this would come from the database
 const sampleInsights = [
+    {
+      id: 12,
+      slug: "bar-licence-nz",
+      type: "blog",
+      title: "Bar Licence NZ: Everything You Need to Know About Getting Licensed",
+      excerpt: "Need a bar licence NZ? We guide bars, restaurants & all business types through applications, renewals & manager certificates. Contact Liquor Concepts today.",
+      author: "Liquor Concepts Team",
+      date: "2026-05-20",
+      readTime: "11 min read",
+      image: "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      id: 11,
+      slug: "liquor-licence-renewal-checklist-nz",
+      type: "blog",
+      title: "Liquor Licence Renewal Checklist NZ: Bars & Restaurants",
+      excerpt: "Get your NZ liquor licence renewal right the first time. Our checklist for restaurants, bars & bottle stores covers every step. Talk to Liquor Concepts today.",
+      author: "Liquor Concepts Team",
+      date: "2026-05-19",
+      readTime: "10 min read",
+      image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
   {
     id: 10,
     slug: "auckland-liquor-licensing-guide",

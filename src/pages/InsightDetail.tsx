@@ -19,6 +19,516 @@ import SEO from "@/components/SEO";
 // Sample data - in production, this would come from the database
 const sampleInsights = [
   {
+      id: 12,
+      slug: "bar-licence-nz",
+      type: "blog",
+      title: "Bar Licence NZ: Everything You Need to Know About Getting Licensed",
+      keywords: "",
+      excerpt: "Need a bar licence NZ? We guide bars, restaurants & all business types through applications, renewals & manager certificates. Contact Liquor Concepts today.",
+      content: `
+
+  <article style="max-width: 860px; margin: 48px auto; padding: 48px 56px; background: #ffffff; box-shadow: 0 2px 24px rgba(0,0,0,0.07); border-radius: 4px;">
+
+    <!-- Summary -->
+    <p style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.8; color: #555; border-left: 4px solid #b8860b; padding: 16px 20px; background: #fdf8ee; border-radius: 0 4px 4px 0; margin-bottom: 40px;">
+      Whether you are opening a bar, running a restaurant, or launching a new hospitality venue, getting a bar licence in NZ is a legal requirement before you serve a single drink. This guide walks you through everything — the types of licences available, what you need to apply, how much it costs, and how working with the right experts makes the whole process significantly easier.
+    </p>
+
+    <!-- Section 1 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">What Is a Bar Licence in NZ and Who Needs One?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">In New Zealand, any business that sells or supplies alcohol to the public must hold a valid liquor licence. This applies whether you run a bar, pub, tavern, restaurant, café, bottle store, entertainment venue, or sports club. Operating without a licence is a serious offence under the Sale and Supply of Alcohol Act 2012, and the penalties are significant.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">A bar licence — formally known as an <strong>on-licence</strong> — allows the sale or supply of alcohol for consumption on the premises. It is the most common licence type for bars, pubs, restaurants, and hospitality venues throughout New Zealand.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">If you are unsure which type of licence your business needs, Liquor Concepts can help you identify the right path from the very start, saving you time and avoiding a costly mistake.</p>
+
+    <!-- Section 2 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Types of Licences Available in New Zealand</h2>
+    <p style="font-size: 16px; margin-bottom: 20px;">Understanding the four licence types is the first step in any bar licence application. Choosing the wrong one can delay or derail your entire process.</p>
+
+    <div style="overflow-x: auto; margin-bottom: 28px;">
+      <table style="width: 100%; border-collapse: collapse; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; box-shadow: 0 1px 8px rgba(0,0,0,0.08); border-radius: 6px; overflow: hidden;">
+        <thead>
+          <tr style="background-color: #2c2c2c; color: #ffffff;">
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Licence Type</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Best For</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Where Alcohol Is Consumed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">On-licence</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Bars, pubs, restaurants, cafés, hotels, entertainment venues</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">On the premises</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Off-licence</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Bottle stores, supermarkets, online/remote sellers</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Off the premises</td>
+          </tr>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Club licence</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Sports clubs, RSAs, members-only clubs</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">On club premises, members only</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; font-weight: 600; color: #b8860b;">Special licence</td>
+            <td style="padding: 13px 18px; color: #444;">One-off events, weddings, festivals, functions</td>
+            <td style="padding: 13px 18px; color: #444;">On or off-site</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size: 16px; margin-bottom: 16px;">An on-licence, off-licence, or club licence is initially granted for one year, and can then be renewed every three years. A special licence covers one-off or short-duration events and has its own separate application process.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">For most bar and restaurant operators, an on-licence is the correct choice. However, if your business model involves selling alcohol for takeaway or delivery — such as a bottle store or online retail — you will need an off-licence instead.</p>
+
+    <!-- Section 3 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Bar Licence NZ: Key Requirements Before You Apply</h2>
+    <p style="font-size: 16px; margin-bottom: 20px;">One of the most common reasons bar licence applications are delayed or declined is incomplete documentation. Getting this right from day one is critical.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 12px;">Applicant Requirements</h3>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Licence holders must be aged 20 years or over</li>
+      <li style="margin-bottom: 6px;">Must demonstrate suitability as an applicant — character, background, and relevant experience</li>
+      <li style="margin-bottom: 6px;">A licence is issued to a person, company, or legal entity in relation to a specific premises</li>
+      <li style="margin-bottom: 6px;">A licence cannot be transferred from one person to another, or from one premises to another</li>
+    </ul>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 12px;">Documentation Checklist</h3>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Completed application form (available from your local council)</li>
+      <li style="margin-bottom: 6px;">Building Act and District Plan compliance certificates</li>
+      <li style="margin-bottom: 6px;">At least one person holding a current Manager's Certificate (issued by a District Licensing Committee)</li>
+      <li style="margin-bottom: 6px;">Host responsibility policy and alcohol management plan</li>
+      <li style="margin-bottom: 6px;">Food menu (food must be available at all times when alcohol is served)</li>
+      <li style="margin-bottom: 6px;">Separate food premise registration</li>
+      <li style="margin-bottom: 6px;">Proposed trading hours</li>
+      <li style="margin-bottom: 6px;">Public notification (placed on the building for the required period)</li>
+      <li style="margin-bottom: 6px;">Police check form</li>
+    </ul>
+
+    <p style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.8; color: #555; border-left: 4px solid #b8860b; padding: 16px 20px; background: #fdf8ee; border-radius: 0 4px 4px 0; margin-bottom: 32px;">
+      <strong>Important:</strong> Even if you are taking over an existing licensed premises, you cannot simply assume the previous owner's licence. You will need to apply for a new licence in your name and obtain fresh building and planning certificates. A temporary authority can allow you to continue trading during the transition period.
+    </p>
+
+    <!-- Section 4 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Step-by-Step: How to Get a Bar Licence in NZ</h2>
+    <p style="font-size: 16px; margin-bottom: 24px;">The bar licence application process involves multiple agencies and several distinct steps. Here is a clear breakdown of what to expect.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 1 — Choose the Right Licence Type</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">Confirm whether an on-licence, off-licence, or another licence type applies to your business model and how you intend to sell alcohol.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 2 — Check Zoning and Location Rules</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">District Plan consent requirements must be met before applying. Some councils have restrictions around premises located near schools, places of worship, or residential areas. Check your local council's requirements early — certain locations may face higher scrutiny or restrictions.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 3 — Obtain Building and Planning Certificates</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">Before lodging your main application, you need building and planning compliance certificates from your local council. This applies even if you are taking over existing licensed premises.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 4 — Appoint a Certified Manager</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">At least one person on your team must hold a current Manager's Certificate before your application can proceed. All duty managers are also required to hold a valid Licence Controller Qualification (LCQ) from a Licensing Control Authority-approved training course.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 5 — Prepare Your Full Application</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">Compile all documentation, including your host responsibility policy, alcohol management plan, food menu, proposed trading hours, and supporting evidence of your suitability as an applicant. Incomplete applications are a leading cause of delays — missing even one document can pause the entire process.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 6 — Lodge Your Application and Pay the Fee</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">Submit your completed application to your local council along with the applicable fee. All application fees must be paid upfront at the time of lodgement.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 7 — Public Notification</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">Your council will publicly notify your application — on its website or in a newspaper — within 20 working days of lodgement. You must also place a notice on the building for the notification period. Members of the public have the right to object if they can demonstrate a special interest in the application.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 8 — Agency Reviews</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">The application is referred to the NZ Police, a licensing inspector, and the Medical Officer of Health for review. Each agency may raise matters in support of or in opposition to the application.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 9 — District Licensing Committee Decision</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">The District Licensing Committee (DLC) makes the final decision. If there are no objections and reports from agencies raise no concerns, the application may be granted without a public hearing. If objections are raised, a public hearing will be held.</p>
+
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #b8860b; margin-top: 28px; margin-bottom: 8px;">Step 10 — Renewal</h3>
+    <p style="font-size: 16px; margin-bottom: 20px;">Once approved, your licence is valid for the first year. After that, it must be renewed every three years. Renewal applications must be lodged at least 20 working days before the expiry date.</p>
+
+    <!-- Section 5 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">How Much Does a Bar Licence Cost in NZ?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">This is one of the most common questions from business owners — and the honest answer is: it depends.</p>
+    <p style="font-size: 16px; margin-bottom: 20px;">Under the Sale and Supply of Alcohol Act 2012, licensing fees are structured around a <strong>risk-based fee system</strong>. There are five fee categories, and your business is assessed based on a combination of factors:</p>
+
+    <div style="overflow-x: auto; margin-bottom: 28px;">
+      <table style="width: 100%; border-collapse: collapse; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; box-shadow: 0 1px 8px rgba(0,0,0,0.08); border-radius: 6px; overflow: hidden;">
+        <thead>
+          <tr style="background-color: #2c2c2c; color: #ffffff;">
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Factor</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">How It Affects Your Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Type of premises</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Bars and taverns typically attract higher fees than cafés</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Trading hours</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Later closing times increase your risk rating</td>
+          </tr>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Previous compliance history</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Prior fines or prosecutions increase your cost/risk score</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; font-weight: 600; color: #b8860b;">Location and nature of business</td>
+            <td style="padding: 13px 18px; color: #444;">High-volume or late-night venues sit in higher brackets</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size: 16px; margin-bottom: 16px;">Every licence holder pays two types of fees: an <strong>application fee</strong> (paid when lodging) and an <strong>annual fee</strong> (paid each year on the anniversary of your licence). Your council may also set its own fee bylaw, which means costs can vary between regions.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">The most practical approach is to use your local council's online fee calculator before applying — this gives you a reliable estimate of your likely cost category. A licensing consultant can also help you understand your risk rating and budget accordingly.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">For restaurant liquor licence costs in NZ, the same risk-based framework applies. A restaurant that serves alcohol only to the table — without a separate bar area — often falls into a lower fee category than a full-service bar. Understanding how your premises is classified can make a meaningful difference to what you pay.</p>
+
+    <!-- Section 6 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Do Restaurants Need a Separate Liquor Licence in NZ?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">Yes. Any restaurant, café, or BYO venue that sells or supplies alcohol must hold a current liquor licence for restaurant in NZ — there are no exceptions.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">For most dining establishments, this means applying for an on-licence. How your restaurant is classified within the on-licence system depends on the nature of your operation:</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 16px; line-height: 2;">
+      <li style="margin-bottom: 6px;"><strong>Class 1 restaurant:</strong> Has a significant separate bar area that operates in the nature of a tavern at least one night per week</li>
+      <li style="margin-bottom: 6px;"><strong>Class 2 restaurant:</strong> Has a bar area but does not operate it in the nature of a tavern</li>
+      <li style="margin-bottom: 6px;"><strong>Class 3 restaurant:</strong> Serves alcohol only to the table, with no separate bar area</li>
+    </ul>
+    <p style="font-size: 16px; margin-bottom: 16px;">This classification directly affects your alcohol licence restaurant cost and the conditions applied to your licence. If you are setting up a new restaurant and want to understand where your venue sits, the team at Liquor Concepts can provide clear, practical guidance tailored to your specific setup.</p>
+
+    <!-- Section 7 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">What Are Your Trading Hours as a Bar or Restaurant?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">The national maximum trading hours for on-licences are between <strong>8:00am and 4:00am the following day</strong>. For off-licences, the standard maximum is <strong>7:00am to 11:00pm</strong>.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">However, your local council's alcohol policy may impose tighter restrictions depending on your location. Always check your local council's current Local Alcohol Policy before confirming proposed trading hours in your application — listing hours you cannot legally operate will flag your application.</p>
+
+    <!-- Section 8 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Why Do Applications Get Declined or Delayed?</h2>
+    <p style="font-size: 16px; margin-bottom: 20px;">Understanding the common pitfalls can save weeks — or months — of frustration.</p>
+
+    <div style="overflow-x: auto; margin-bottom: 28px;">
+      <table style="width: 100%; border-collapse: collapse; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; box-shadow: 0 1px 8px rgba(0,0,0,0.08); border-radius: 6px; overflow: hidden;">
+        <thead>
+          <tr style="background-color: #2c2c2c; color: #ffffff;">
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Common Issue</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Impact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Incomplete documentation</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Processing halted until resolved</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">No Manager's Certificate holder</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Application cannot proceed</td>
+          </tr>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Zoning or location restrictions</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Licence cannot be issued</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Police or health agency objections</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Triggers public hearing, adds months</td>
+          </tr>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Poor host responsibility policy</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Raises red flags with the DLC</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Location near schools or churches</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Lower approval likelihood without strong mitigation</td>
+          </tr>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; font-weight: 600; color: #b8860b;">Previous compliance breaches</td>
+            <td style="padding: 13px 18px; color: #444;">Higher risk rating and fees; possible refusal</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size: 16px; margin-bottom: 16px;">The most effective way to avoid these issues is to prepare thoroughly before you apply — and to work with someone who knows exactly what the DLC is looking for.</p>
+
+    <!-- Section 9 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">How Long Does the Process Take?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">For on-licences, off-licences, and club licences, the application process can take <strong>up to ten weeks</strong> from lodgement to decision. This assumes your application is complete and no objections are raised.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">If a public hearing is required, the timeline can extend considerably — sometimes several months. Starting the process well in advance of your planned opening date is not just recommended; for many businesses, it is the difference between opening on time and not opening at all.</p>
+
+    <!-- Section 10 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Why Work With a Liquor Licensing Consultancy?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">The bar licence application process in NZ involves multiple government agencies, strict documentation requirements, public notification, and legal compliance obligations. For first-time applicants especially, navigating this alone is a significant undertaking.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;"><a href="https://liquorconcepts.co.nz/" style="color:#b8860b;">Liquor Concepts</a> is a New Zealand-based consultancy that manages the entire licensing process for businesses of every size and type — bars, restaurants, bottle stores, clubs, event venues, and more. The team brings hands-on experience with what councils, licensing inspectors, and District Licensing Committees actually need to see in a successful application.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">What clients consistently value is the practical, step-by-step guidance and genuine commitment to getting the job done right. From the initial consultation through to lodgement and approval, every aspect of the process is handled with care, accuracy, and clear communication — so business owners can stay focused on building their venue rather than drowning in paperwork.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">To explore the full range of licensing services available, visit <a href="https://liquorconcepts.co.nz/services" style="color:#b8860b;">liquorconcepts.co.nz/services</a>.</p>
+
+    <!-- CTA -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Ready to Get Your Bar Licence in NZ?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">Getting a bar licence in NZ is easier with the right experts. Whether you are applying for the first time, renewing an existing licence, or navigating a complex situation involving objections or compliance history, Liquor Concepts has the knowledge and experience to guide you through every step.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">Contact Liquor Concepts today to schedule a consultation and discuss your bar licence application — the sooner you start, the smoother your path to opening.</p>
+
+    <!-- FAQ -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 24px;">Frequently Asked Questions</h2>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">How long does a bar licence application take in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">A bar licence application in NZ typically takes up to ten weeks from lodgement to decision, provided the application is complete and no objections are raised by the public or reporting agencies. If a public hearing is required, the timeline can extend significantly — sometimes to several months. The best way to avoid delays is to have all documentation fully prepared before lodging, and to start the process well in advance of your planned opening date.</p>
+    </div>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">What are the requirements to get a bar licence in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">To get a bar licence in NZ, you need to be aged 20 or over and demonstrate suitability as an applicant. You will need building and planning compliance certificates, at least one person holding a current Manager's Certificate, a host responsibility policy, an alcohol management plan, a food menu, food premise registration, and completed application forms. Your application will be assessed by the NZ Police, a licensing inspector, and the Medical Officer of Health before the District Licensing Committee makes its final decision.</p>
+    </div>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">How much does a bar licence cost in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">The cost of a bar licence in NZ is calculated using a risk-based fee system with five categories. Your fee depends on the type of premises, your trading hours, and your compliance history. Lower-risk premises with standard hours pay less; high-volume late-night venues fall into higher brackets. Both an application fee (paid at lodgement) and an annual fee apply. Your local council may also have its own fee bylaw. Using your council's fee calculator before applying gives you a reliable estimate of your likely costs.</p>
+    </div>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">Do I need a liquor licence for a restaurant in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">Yes. Any restaurant, café, or dining venue that sells or supplies alcohol must hold a valid liquor licence for restaurant in NZ. This is typically an on-licence. Your restaurant's classification — based on whether it has a separate bar area and how it operates — affects your fee category and the conditions placed on your licence. Even BYO venues that also sell alcohol need an appropriate licence. Applying early is important, as the process can take up to ten weeks.</p>
+    </div>
+
+    <div style="margin-bottom: 8px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">Can I transfer a bar licence when purchasing an existing venue in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">No. A licence cannot be transferred from one person to another or from one premises to another. When you purchase an existing bar or restaurant, you must apply for a new licence in your own name — including obtaining fresh building and planning certificates. However, you can apply for a temporary authority to continue trading under the previous licence while your new application is being processed. This must be arranged before settlement to avoid any gap in your legal authority to sell alcohol. A licensing consultant can manage this transition smoothly on your behalf.</p>
+    </div>
+
+  </article>
+
+`,
+      author: "Liquor Concepts Team",
+      date: "2026-05-20",
+      readTime: "11 min read",
+      image: "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 11,
+    slug: "liquor-licence-renewal-checklist-nz",
+    type: "blog",
+    title:
+      "Liquor Licence Renewal Checklist NZ: Bars & Restaurants",
+    keywords: "",
+    excerpt:
+      "Get your NZ liquor licence renewal right the first time. Our checklist for restaurants, bars & bottle stores covers every step. Talk to Liquor Concepts today.",
+    content: `
+  <article style="max-width: 860px; margin: 48px auto; padding: 48px 56px; background: #ffffff; box-shadow: 0 2px 24px rgba(0,0,0,0.07); border-radius: 4px;">
+
+    <!-- Summary -->
+    <p style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.8; color: #555; border-left: 4px solid #b8860b; padding: 16px 20px; background: #fdf8ee; border-radius: 0 4px 4px 0; margin-bottom: 40px;">
+      Renewing your liquor licence in New Zealand doesn't have to be stressful — but only if you're prepared. Whether you operate a restaurant, bar, or bottle store, your liquor licence renewal comes with specific legal requirements under the Sale and Supply of Alcohol Act 2012. Miss a document, misunderstand your timeline, or let your licence lapse, and the consequences can be severe. This practical checklist walks New Zealand business owners through every step of the alcohol licence renewal process, so you can approach your renewal with confidence and keep trading without interruption.
+    </p>
+
+    <!-- Section 1 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Why Getting Your Liquor Licence Renewal Right Matters</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">Running a licensed premises in New Zealand is a privilege, not a given. The Sale and Supply of Alcohol Act 2012 places clear obligations on every licensee — and the renewal process is your opportunity to demonstrate that you continue to meet those obligations.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">A smooth renewal protects your business, your staff, and your customers. A failed or lapsed renewal, on the other hand, means you must immediately stop selling alcohol, remove it from display, and apply for an entirely new licence — a process that is more expensive, more time-consuming, and open to a wider range of public objections.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">The good news? With the right preparation and a clear checklist, renewing your liquor licence on time is entirely achievable for any New Zealand hospitality business.</p>
+
+    <!-- Section 2 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">How Often Do You Have to Renew a Liquor Licence in NZ?</h2>
+    <p style="font-size: 16px; margin-bottom: 20px;">Under New Zealand law, on-licences (restaurants, bars, cafes), off-licences (bottle stores, supermarkets), and club licences are granted initially for one year and can then be renewed every three years. In addition to the three-year renewal cycle, an annual fee is payable on the anniversary of your licence's issue date each year.</p>
+    <p style="font-size: 16px; margin-bottom: 20px;">Here's a clear overview:</p>
+
+    <div style="overflow-x: auto; margin-bottom: 32px;">
+      <table style="width: 100%; border-collapse: collapse; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; box-shadow: 0 1px 8px rgba(0,0,0,0.08); border-radius: 6px; overflow: hidden;">
+        <thead>
+          <tr style="background-color: #2c2c2c; color: #ffffff;">
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Licence Type</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Typical Premises</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Initial Term</th>
+            <th style="padding: 14px 18px; text-align: left; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 12px;">Renewal Cycle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">On-licence</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Restaurants, bars, cafes</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">1 year</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Every 3 years</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Off-licence</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Bottle stores, supermarkets</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">1 year</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Every 3 years</td>
+          </tr>
+          <tr style="background-color: #fff;">
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; font-weight: 600; color: #b8860b;">Club licence</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Sports clubs, RSAs</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">1 year</td>
+            <td style="padding: 13px 18px; border-bottom: 1px solid #eee; color: #444;">Every 3 years</td>
+          </tr>
+          <tr style="background-color: #fafaf8;">
+            <td style="padding: 13px 18px; font-weight: 600; color: #b8860b;">Special licence</td>
+            <td style="padding: 13px 18px; color: #444;">Events, functions</td>
+            <td style="padding: 13px 18px; color: #444;">Per event</td>
+            <td style="padding: 13px 18px; color: #444;">N/A</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size: 16px; margin-bottom: 16px;">The legal deadline for filing a liquor licence renewal application is at least <strong>20 working days before your licence expires</strong>. However, most licensing professionals — and every District Licensing Committee (DLC) in the country — strongly recommend applying well before that minimum. Three months ahead is a sensible target, particularly if your licence expires near the Christmas/New Year shutdown period (20 December to 15 January), when no applications are processed.</p>
+
+    <!-- Section 3 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">The Complete Liquor Licence Renewal Checklist for NZ Businesses</h2>
+    <p style="font-size: 16px; margin-bottom: 24px;">Use this checklist as your step-by-step guide to ensure your renewal application is complete and lodge-ready. Requirements can vary slightly between territorial authorities, so always check with your local DLC — but this covers the core requirements across New Zealand.</p>
+
+    <!-- Step 1 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 1: Know Your Expiry Date and Timeline</h3>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Confirm your licence expiry date from your current licence document</li>
+      <li style="margin-bottom: 6px;">Count back at least 20 working days — note this excludes weekends, public holidays, and the 20 Dec–15 Jan shutdown</li>
+      <li style="margin-bottom: 6px;">Set your target lodgement date at least 10–12 weeks before expiry for safety</li>
+      <li style="margin-bottom: 6px;">Mark your annual fee due date separately (payable every year, not just renewal years)</li>
+    </ul>
+
+    <!-- Step 2 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 2: Obtain and Complete the Correct Renewal Form</h3>
+    <p style="font-size: 16px; margin-bottom: 14px;">The liquor license renewal form you need depends on your licence type. Each licence type — on-licence, off-licence, and club licence — has its own prescribed form under the Sale and Supply of Alcohol Act 2012.</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Download the correct renewal application form from your DLC's website or pick it up in person</li>
+      <li style="margin-bottom: 6px;">Complete all sections in full — incomplete forms are returned, which can cost you weeks</li>
+      <li style="margin-bottom: 6px;">Have the form signed by the correct authorised person (e.g. company director if the applicant is a company)</li>
+      <li style="margin-bottom: 6px;">If you are using a licensing consultant, include a signed letter of authorisation</li>
+    </ul>
+
+    <!-- Step 3 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 3: Gather Your Supporting Documents</h3>
+    <p style="font-size: 16px; margin-bottom: 14px;">This is where most applications run into trouble. Missing or outdated supporting documents are the most common reason renewal applications are returned or delayed.</p>
+
+    <p style="font-size: 15px; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; color: #444; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">For all licence types (on-, off-, and club licence):</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 20px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Current floor plan of the premises, clearly showing the licensed area, principal entrance, and any restricted or supervised areas</li>
+      <li style="margin-bottom: 6px;">Host Responsibility Policy — this must be current and reflect how you actually manage responsible service at your premises. For on-licences and club licences, this should also include your implementation plan</li>
+      <li style="margin-bottom: 6px;">Valid Manager's Certificate(s) — copies for each manager nominated to manage the premises. Note that a Manager's Certificate is initially issued for 12 months and then renewed every three years; ensure yours hasn't lapsed</li>
+      <li style="margin-bottom: 6px;">Certificate of Incorporation (if the applicant is a company)</li>
+      <li style="margin-bottom: 6px;">Photo of the main entrance to the premises</li>
+    </ul>
+
+    <p style="font-size: 15px; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; color: #444; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">Additional documents for on-licences (restaurants, bars, cafes):</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 20px; line-height: 2;">
+      <li style="margin-bottom: 6px;">A copy of your current food menu</li>
+      <li style="margin-bottom: 6px;">Details of how free drinking water is provided to customers</li>
+      <li style="margin-bottom: 6px;">Planning and building certificates (required if changes have been made to the premises)</li>
+      <li style="margin-bottom: 6px;">Written permission from the building owner if the premises are council-owned or leased</li>
+    </ul>
+
+    <p style="font-size: 15px; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; color: #444; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em;">Additional documents for off-licences (bottle stores):</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Details of steps taken to prevent sale of alcohol to minors and intoxicated persons</li>
+      <li style="margin-bottom: 6px;">If applicable, a statement of annual sales revenue (for grocery/supermarket premises)</li>
+    </ul>
+
+    <!-- Step 4 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 4: Calculate and Pay the Renewal Fee</h3>
+    <p style="font-size: 16px; margin-bottom: 14px;">The liquor license renewal fee in New Zealand is based on a cost/risk rating system set by the Sale and Supply of Alcohol (Fees) Regulations 2013. Your fee is determined by:</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 16px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Your licence type (on-, off-, or club licence)</li>
+      <li style="margin-bottom: 6px;">Your trading hours</li>
+      <li style="margin-bottom: 6px;">Any enforcement actions taken against your premises in the last 18 months</li>
+    </ul>
+    <p style="font-size: 16px; margin-bottom: 14px;">Higher-risk premises such as nightclubs and late-trading bars pay more. Lower-risk premises such as small clubs and daytime cafes pay less. Your territorial authority may also apply its own fee schedule via a local bylaw.</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Use your council's fee calculator or check the fee schedule for your district</li>
+      <li style="margin-bottom: 6px;">Include the correct fee payment with your application — fees are non-refundable once lodged</li>
+      <li style="margin-bottom: 6px;">Ensure your most recent annual fee payments are also up to date</li>
+    </ul>
+
+    <!-- Step 5 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 5: Post Your Public Notice</h3>
+    <p style="font-size: 16px; margin-bottom: 14px;">New Zealand's liquor licensing process requires public notification of renewal applications. This gives members of the public, NZ Police, and the Medical Officer of Health the opportunity to file a report or objection.</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Display a public notice in a conspicuous location at your premises (at the street frontage or main entrance) within 10 working days of submitting your application</li>
+      <li style="margin-bottom: 6px;">Confirm with your DLC whether the council will post the online notification, or whether you need to arrange newspaper publication</li>
+      <li style="margin-bottom: 6px;">Be aware that the public has 25 working days from the date of the online notice to file an objection</li>
+    </ul>
+
+    <!-- Step 6 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 6: Prepare for the Inspector Visit</h3>
+    <p style="font-size: 16px; margin-bottom: 14px;">Once your application is lodged, an alcohol licensing inspector will visit your premises to review your operation and host responsibility practices.</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Ensure your Host Responsibility Policy is displayed and accessible to staff</li>
+      <li style="margin-bottom: 6px;">Confirm that the duty manager's name is prominently displayed inside the premises at all times</li>
+      <li style="margin-bottom: 6px;">Check that age verification procedures are in place and understood by all staff</li>
+      <li style="margin-bottom: 6px;">Make sure free drinking water is available to customers (mandatory for on-licence premises)</li>
+    </ul>
+
+    <!-- Step 7 -->
+    <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 19px; font-weight: 700; color: #b8860b; margin-top: 36px; margin-bottom: 12px;">Step 7: Lodge Your Application</h3>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 24px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Double-check the application against your DLC's checklist before submitting</li>
+      <li style="margin-bottom: 6px;">Submit your completed application form, all supporting documents, and your fee payment together</li>
+      <li style="margin-bottom: 6px;">Submit in person, by post, or online (depending on your council's accepted methods)</li>
+      <li style="margin-bottom: 6px;">Retain a copy of everything you submit for your own records</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">What Happens After You Lodge Your Liquor Licence Renewal Application?</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">Once your application is received, the following process unfolds:</p>
+    <ol style="font-size: 16px; padding-left: 24px; margin-bottom: 16px; line-height: 2;">
+      <li style="margin-bottom: 8px;"><strong>Completeness check</strong> — the DLC checks your application is complete. Incomplete applications are returned.</li>
+      <li style="margin-bottom: 8px;"><strong>Agency reports</strong> — NZ Police and the Medical Officer of Health review your application. Police have 15 working days to file a report.</li>
+      <li style="margin-bottom: 8px;"><strong>Public objection period</strong> — the public has 25 working days from notification to file any objections.</li>
+      <li style="margin-bottom: 8px;"><strong>Inspection</strong> — a licensing inspector visits your premises.</li>
+      <li style="margin-bottom: 8px;"><strong>DLC decision</strong> — if there are no objections or opposition, the DLC processes the renewal. If objections are received, a public hearing may be scheduled.</li>
+      <li style="margin-bottom: 8px;"><strong>Licence issued</strong> — once approved, your renewed licence is posted to you.</li>
+    </ol>
+    <p style="font-size: 16px; margin-bottom: 16px;">Provided your application is complete and uncontested, most councils indicate a processing time of four to eight weeks. Your existing licence remains valid while your application is being processed, provided it was lodged before the expiry date.</p>
+
+    <!-- Section 5 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Common Mistakes That Delay Licence Renewals in New Zealand</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">Learning from what goes wrong for others is one of the fastest ways to protect your own renewal. Common pitfalls include:</p>
+    <ul style="font-size: 16px; padding-left: 24px; margin-bottom: 16px; line-height: 2;">
+      <li style="margin-bottom: 6px;">Lodging the application too close to the expiry date, leaving no buffer for delays</li>
+      <li style="margin-bottom: 6px;">Submitting an outdated or inadequate Host Responsibility Policy</li>
+      <li style="margin-bottom: 6px;">Forgetting to check that Manager's Certificates haven't lapsed</li>
+      <li style="margin-bottom: 6px;">Missing the public notice requirement</li>
+      <li style="margin-bottom: 6px;">Not accounting for the Christmas/New Year shutdown period when counting working days</li>
+      <li style="margin-bottom: 6px;">Submitting an incorrect fee or forgetting to include payment</li>
+    </ul>
+    <p style="font-size: 16px; margin-bottom: 16px;">A licensing consultant can review your application before you submit it, catching these issues before they cost you time or, worse, put your licence at risk. For a full overview of professional support available to New Zealand businesses, visit the <a href="https://liquorconcepts.co.nz/services" style="color:#b8860b;">Liquor Concepts services page.</a></p>
+
+    <!-- Section 6 -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 20px;">Liquor Licensing Services New Zealand — Renew with Confidence</h2>
+    <p style="font-size: 16px; margin-bottom: 16px;">Whether you're a bar owner in Auckland, a restaurant operator in Wellington, or a bottle store licensee in Christchurch, the liquor license renewal NZ process is the same — and the stakes are equally high wherever you are.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;"><a href="https://liquorconcepts.co.nz/" style="color:#b8860b;">Liquor Concepts</a> is a New Zealand-based liquor licensing consultancy dedicated to helping hospitality businesses navigate the renewal process efficiently and accurately. The team provides step-by-step guidance, reviews your application for completeness before lodgement, and helps you understand your obligations under the Sale and Supply of Alcohol Act 2012 — so you can focus on running your business rather than worrying about your paperwork.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">From first-year renewals through to three-year renewals and beyond, Liquor Concepts brings practical expertise and a genuine commitment to client outcomes. If you're coming up to a renewal, there's no better time to get professional support in place.</p>
+    <p style="font-size: 16px; margin-bottom: 16px;">Contact Liquor Concepts today to schedule a consultation and get clear, practical guidance on your liquor licence renewal — before your expiry date catches you off guard.</p>
+
+    <!-- FAQ Section -->
+    <h2 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #1a1a1a; border-bottom: 2px solid #e8e0d0; padding-bottom: 10px; margin-top: 48px; margin-bottom: 24px;">Frequently Asked Questions: Liquor Licence Renewal Checklist NZ</h2>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">1. What documents do I need to renew my liquor licence in New Zealand?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">To complete a liquor licence renewal application in New Zealand, you will typically need: the completed renewal form for your licence type (on-, off-, or club licence); the applicable renewal fee; a current floor plan of your premises; an up-to-date Host Responsibility Policy; copies of valid Manager's Certificates for all nominated managers; a Certificate of Incorporation (if the applicant is a company); and a photo of the main entrance. Restaurants and bars on an on-licence will also need a current food menu and details of how free drinking water is provided. Requirements can vary slightly between territorial authorities, so always check with your local District Licensing Committee.</p>
+    </div>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">2. How do I renew my liquor licence for a restaurant or bar in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">To renew a liquor licence for a restaurant or bar (on-licence) in New Zealand, start by confirming your expiry date and counting back at least 10–12 weeks to set your lodgement target. Download the correct renewal form from your local District Licensing Committee's website. Gather your supporting documents — including a current floor plan, Host Responsibility Policy, and Manager's Certificates — then calculate and pay your renewal fee. Post your public notice at the premises once your application is submitted. Your application will be reviewed by NZ Police and a licensing inspector before the DLC makes a final decision. If lodged before the expiry date, your existing licence remains valid throughout the process.</p>
+    </div>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">3. How long does a liquor licence renewal take to process in NZ?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">Most New Zealand councils indicate that an alcohol licence renewal takes a minimum of four to eight weeks to process once a complete application is received. However, if a public objection is filed or NZ Police or the Medical Officer of Health raise concerns, the process can take considerably longer as a public hearing may be required. To avoid any gap in your ability to trade, it's strongly recommended to lodge your liquor licence renewal application at least 10–12 weeks before your expiry date — not just the 20 working days minimum required by law.</p>
+    </div>
+
+    <div style="margin-bottom: 28px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">4. What happens if I forget to renew my liquor licence in New Zealand?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">If you fail to lodge a liquor licence renewal application before your licence expiry date in New Zealand, your licence lapses immediately. You must stop selling alcohol, remove it from display, and apply for an entirely new licence rather than a renewal. This is a more complex, more expensive process and opens your application to a broader range of public objections. NZ Police may also visit your premises to verify compliance. Under Section 235 of the Sale and Supply of Alcohol Act 2012, operating without a valid licence carries penalties of up to $20,000. There is no grace period, which is why early preparation is essential.</p>
+    </div>
+
+    <div style="margin-bottom: 8px; border: 1px solid #e8e0d0; border-radius: 6px; padding: 24px 28px;">
+      <h3 style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 17px; font-weight: 700; color: #2c2c2c; margin-top: 0; margin-bottom: 12px;">5. Do I need to renew my Manager's Certificate at the same time as my liquor licence renewal?</h3>
+      <p style="font-size: 15px; margin: 0; color: #444; line-height: 1.8;">Not necessarily at the same time, but you do need to ensure all Manager's Certificates are current when you lodge your renewal application. A Manager's Certificate in New Zealand is initially issued for 12 months and is then renewed every three years — a separate process from the premises licence renewal. When completing your liquor licence renewal checklist, check the expiry dates of all Manager's Certificates for your nominated managers and arrange renewals if needed. An expired Manager's Certificate could create compliance issues during the inspector visit that forms part of your licence renewal process.</p>
+    </div>
+
+  </article>
+`,
+    author: "Liquor Concepts Team",
+    date: "2026-05-19",
+    readTime: "10 min read",
+    image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
     id: 10,
     slug: "auckland-liquor-licensing-guide",
     type: "blog",
