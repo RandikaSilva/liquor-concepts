@@ -11,6 +11,17 @@ import SEO from "@/components/SEO";
 
 // Sample data - in production, this would come from the database
 const sampleInsights = [
+  {
+      id: 13,
+      slug: "bar-managers-certificate-nz-step-by-step-guide",
+      type: "blog",
+      title: "Bar Manager's Certificate NZ: Step-by-Step Guide",
+      excerpt: "Learn how to get your bar manager's certificate in NZ. Step-by-step guide covering LCQ, eligibility, and application. Get expert help from Liquor Concepts today.",
+      author: "Liquor Concepts Team",
+      date: "2026-06-11",
+      readTime: "11 min read",
+      image: "https://images.unsplash.com/photo-1643297500887-929d40b1f047?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
     {
       id: 12,
       slug: "bar-licence-nz",
